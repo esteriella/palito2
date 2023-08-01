@@ -1,0 +1,86 @@
+:root {
+   background-color: var(--#F4FAFC)
+   var(--#043649)
+   var (--#054761)
+   var (--#CDE1E9)
+   var (--#5A9CB6)
+   var (--#022431)
+
+}
+
+.nav {
+    background: #054761;
+}
+
+span {
+    color: white;
+}
+
+.btn {
+    background-color: #5A9CB6;
+}
+
+.btn1 {
+    border: 1px solid #3084A4;
+    border-radius: 7px;
+    color: #3084A4;
+}
+
+.nav-link {
+    color: white;
+}
+
+.section-1 {
+    background-image: url(./img/401\ 1.png);
+    background-position: center;
+    width: 1440px;
+    height: 500px;
+    padding-top: 100px;
+    
+ }
+
+ .div {
+    position: relative;
+ }
+
+ .card {
+    justify-content: space-evenly;
+    align-content: center;
+    background: #ACCEDB;
+    margin-left: 130px;
+    position: absolute;
+    top: 490px;
+ }
+
+.subtitle {
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+ .crypto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #97d4ec;
+
+    border-radius: 15px;
+    padding: 5px 15px 0 15px;
+    text-align: center;
+    flex-wrap: 1;
+    margin-bottom: 5px;
+    background-color: #97d4ec;
+    /* display: inline-flex;
+    padding: 0px 8px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 10px; */
+ }
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: rgba(146, 194, 182, 0.7);
+        backdrop-filter: blur(10px);
+    }
+}

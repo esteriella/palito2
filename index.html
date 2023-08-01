@@ -4,209 +4,260 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autominer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
-<body>
-    <header class="header">
-        <img class="image" src="./img/Asset 6@2x 1.png" alt="">
-        <nav class="">
-            <ul>
-                <li>About Us</li>
-                <li>Plans</li>
-                <li>Support</li>
-            </ul>
+<body class="vh-100 overflow-x-hidden">
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top nav">
+            <div class="container">
+                <a class="navbar-brand fs-4" href="#"><img src="./img/Asset 6@2x 1.png" alt=""></a>
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header text-white border-bottom">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                        <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                            <li class="nav-item mx-2">
+                            <a class="nav-link" aria-current="page" href="#About Us">About Us</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                            <a class="nav-link" href="#Plans">Plans</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                            <a class="nav-link" href="#Spport">Support</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex justify-content-center align-items-center gap-3">
+                            <a href="#login" class="btn1 text-decoration-none px-3 py-1" >Login</a>
+                            <a href="#login" class="btn text-decoration-none px-3 py-1 text-white" >Sign Up</a>
+                            <!-- <button class="btn" type="submit">Login</button>
+                            <button class="btn" type="submit">Sign Up</button>   -->
+                        </div>
+
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            EN
+                            </a>
+                            <ul class="dropdown-menu menu">
+                            <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </nav>
-        <div class="">
-            <button type="submit" class="">Login</button>
-            <button type="submit" class="">Sign Up</button>
-        </div>
     </header>
     
-    <main class="">
-        <section class="">
-            <div class="">
+    <main>
+        <div class="div">
+            <section class="w-100 vh-100 d-flex flex-column justify-content-center align-items-center text-black fs-1 section-1">
                 <h3>Cryptocurrency is Easy, we will help you take care of it!</h3>
                 <p>Leave the Complexity to Us and Enjoy Hassle-Free Cryptocurrency Management!</p>
-                <button type="button" class="" >Get Started</button>
+                <button type="button" class="btn btn-primary">Get Started</button>
+            </section>
+
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="card-subtitle subtitle mb-2 text-body-secondary">Top Investors Today</h6>
+                    <div class="crypto">
+                        <div><p>Name</p></div>
+                        <div><p>Crypto Investment</p></div>
+                        <div><p>Reward</p></div>
+                    </div>
+
+                    <div class="crypto">
+                        <div><p>Palito</p></div>
+                        <div><p>Bitcoin</p></div>
+                        <div><p><img src="./img/fi-rr-chat-arrow-grow.png" class="" alt=""><span class="palito">0.5</span></p></div>
+                    </div>
+
+                    <div class="crypto">
+                        <div><p>Palito</p></div>
+                        <div><p>Dodge coin</p></div>
+                        <div><p><img src="./img/fi-rr-chat-arrow-grow.png" class="" alt=""><span class="palito">0.5</span></p></div>
+                    </div>
+
+                    <div class="crypto">
+                        <div><p>Palito</p></div>
+                        <div><p>Etherum</p></div>
+                        <div><p><img src="./img/fi-rr-chat-arrow-grow.png" class="" alt=""><span class="palito">0.5</span></p></div>
+                    </div>
+
+                    <div class="crypto">
+                        <div><p>Palito</p></div>
+                        <div><p>Dodge</p></div>
+                        <div><p><img src="./img/fi-rr-chat-arrow-grow.png" class="" alt=""><span class="palito">0.5</span></p></div>
+                    </div>
+
+                    <div class="crypto">
+                        <div><p>Palito</p></div>
+                        <div><p>Dodge</p></div>
+                        <div><p><img src="./img/fi-rr-chat-arrow-grow.png" class="" alt=""><span class="palito">0.5</span></p></div>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
+
+        <div class="row section-2">
+            <section class="col section-3">
+                <h1>Want to join us at Autominer?</h1>
+                <p>We simplify your whole mining process in four easy steps without complications.</p>
+            </section>
+
+            <section class="section-4">
+                <div class="container-1">
+                    <div class="row reverse items-center vt">
+                        <div class="col-lg-6 align-left p-2 mining-para">
+                            <div class="mining">
+                                <h3>Create an Account</h3>
+                                <p>Sign up by simply providing your full name,<br> desired username, and earn daily rewards.<br> It’s that easy!</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 align-center p-2 img1">
+                            <img class="featurecard" alt="image" src="./img/Create account.png">
+                        </div>
+                    </div>
+
+                    <div class="row items-center vt">
+                        <div class="col-lg-6 align-left p-2 mining-para">
+                            <h3>Choose a Mining Plan</h3>
+                            <p>Choose your preferred mining plan with no membership rates.<br> What is keeping you waiting?<br> Let us get you started to the cryptocurrency<br> mining world!</p>
+                            <button class="btn btn-primary xl main mtlg wbutton" type="submit">View Plans</button>
+                        </div>
+                        <div class="col-lg-6 align-center p-2 img1">
+                            <img class="featurecard" alt="image" src="./img/pick plan.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
         
-        <section class="">
-            <p class="">Top Investors Today</p>
-            <div class="">
-                <p>Name</p>
-                <p>Crypto Investment</p>
-                <p>Reward</p>
-            </div>
 
-            <div class="">
-                <p>Palito</p>
-                <p>Bitcoin</p>
-                <p><img src="./img/fi-rr-chat-arrow-grow.png" class="" alt="">0.5</p>
-            </div>
+            <section class="section-4">
+                <div class="container">
+                    <div class="row reverse items-center vt">
+                        <div class="col-lg-6 align-left p-2 mining-para">
+                            <h3>Let us Mine Crypto for you!</h3>
+                            <p>Autominer will mine your cryptocurrency for you with our improved mining hardware at a global competitive rate, ensuring that you receive your 100% mining rewards without hassle!</p>
+                        </div>
+                        <div class="col-lg-6 align-center p-2 img1">
+                            <img class="featurecard" alt="image" src="./img/let us mine 4 u 1.png">
+                        </div>
+                    </div>
 
-            <div class="">
-                <p>Palito</p>
-                <p>Dodge coin</p>
-                <p><img src="./img/fi-rr-chat-arrow-grow.png" class="" alt="">0.5</p>
-            </div>
-
-            <div class="">
-                <p>Palito</p>
-                <p>Etherum</p>
-                <p><img src="./img/fi-rr-chat-arrow-grow.png" class="" alt="">0.5</p>
-            </div>
-
-            <div class="">
-                <p>Palito</p>
-                <p>Dodge</p>
-                <p><img src="./img/fi-rr-chat-arrow-grow.png" class="" alt="">0.5</p>
-            </div>
-
-            <div class="">
-                <p>Palito</p>
-                <p>Dodge</p>
-                <p><img src="./img/fi-rr-chat-arrow-grow.png" class="" alt="">0.5</p>
-            </div>
-        <section>
-
-        <section class="">
-            <h1>Want to join us at Autominer?</h1>
-            <p>We simplify your whole mining process in four easy steps without complications.</p>
-
-            <div class="row reverse itemscenter vt">
-                <div class="column alignleft p2xl mining-para">
-                    <h3>create an Account</h3>
-                    <p>Sign up by simply providing your full name, desired username, and earn daily rewards. It’s that easy!</p>
-                <div class="column aligncenter p2xl img1">
-                    <img class="featurecard" alt="image" src="./img/Create account.png" >
-                </div>
-            </div>
-
-            <div class="row itemscenter vt">
-                <div class="column alignleft p2xl mining-para">
-                    <h3>Choose a Mining Plan</h3>
-                    <p>Choose your preferred mining plan with no membership rates. What is keeping you waiting? Let us get you started to the cryptocurrency mining world!</p>
-                    <button  class="btn button xl main mtlg wbutton" type="submit">View Plans</button>
-                </div>
-                <div class="column aligncenter p2xl img1">
-                    <img class="featurecard" alt="image" src="./img/pick plan.png" >
-                </div>
-
-                <div class="row reverse itemscenter vt">
-                    <div class="column alignleft p2xl mining-para">
-                        <h3>Let us Mine Crypto for you!</h3>
-                        <p>Autominer will mine your cryptocurrency for you with our improved mining hardware at a global competitive rate , ensuring that you receive your 100% mining rewards without hassle!</p>
-                    <div class="column aligncenter p2xl img1">
-                        <img class="featurecard" alt="image" src="./img/let us mine 4 u 1.png" >
+                    <div class="row items-center vt">
+                        <div class="col-lg-6 align-left p-2 mining-para">
+                            <h3>Earn Crypto Automatically<br>Build your Future</h3>
+                            <p>We distribute mining rewards as well as referral rewards automatically into your wallet address. Check your mining potential based on your mining plan!</p>
+                        </div>
+                        <div class="col-lg-6 align-center p-2 img1">
+                            <img class="featurecard" alt="image" src="./img/Earn Reward.png">
+                        </div>
                     </div>
                 </div>
+            </section>
+        </div>
 
-                <div class="row itemscenter vt">
-                    <div class="column alignleft p2xl mining-para">
-                        <h3>Earn Crypto Automatically<br>Build your Future</h3>
-                        <p>We distribute mining rewards as well as referral rewards automatically into your wallet address. Check your mining potential based on your mining plan!</p>
-                    <div class="column aligncenter p2xl img1">
-                        <img class="featurecard" alt="image" src="./img/Earn Reward.png" >
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="">
-            <div class="row itemscenter vt">
-                <div class="column alignleft p2xl mining-para">
+            <section class="row container-2">
+                <div class="col-lg-6 align-left p-2 mining-para">
                     <h3>At Autominer</h3>
                     <p>We are passionate about the world of cryptocurrencies particularly Bitcoin. we offer unique opportunity to capitalize on the incredible potential of Bitcoin mining!<br> 
-                        A place for everyone who wants to mine Bitcoin. Deposit funds through your wallet address /crypto exchange. Instant withdrawal of bitcoins to your registered wallet is guaranteed. Nothing extra.<br>
-                        Join our poll of over 700,000 users from all over the world satisfied with our services. Together, we will navigate the exciting world of cryptocurrencies and secure your dream future!
-                    </p>
-                    <button  class="btn button xl main mtlg wbutton" type="submit">Learn More</button>
-                <div class="column aligncenter p2xl img1">
-                    <img class="featurecard" alt="image" src="./img/Frame 55.png" >
+                    A place for everyone who wants to mine Bitcoin. Deposit funds through your wallet address/crypto exchange. Instant withdrawal of bitcoins to your registered wallet is guaranteed. Nothing extra.<br>
+                    Join our poll of over 700,000 users from all over the world satisfied with our services. Together, we will navigate the exciting world of cryptocurrencies and secure your dream future!</p>
+                    <button class="btn btn-primary xl main mtlg wbutton" type="submit">Learn More</button>
                 </div>
-            </div>
-        </section>
 
-        <section class="">
-            <h4>Why Choose Us</h4>
+                <div class="col-lg-6 align-center p-2 img1">
+                    <img src="./img/Frame 55.png" alt="">
+                </div>
+            </section>
 
-            <div class="">
-                <img class="" src="./img/fi-rr-lock.png" alt="" >
+        <section class="row">
+            <div class="col-md-3">
+                <img class="" src="./img/fi-rr-lock.png" alt="">
                 <h3>Strong Security</h3>
-                <p>secure you against DDoS<br> attacks, full data encryption</p>
+                <p>secure you against DDoS attacks, full data encryption</p>
             </div>
 
-            <div class="">
-                <img class="" src="./img/fi-rr-world.png" alt="" >
+            <div class="col-md-3">
+                <img class="" src="./img/fi-rr-world.png" alt="">
                 <h3>World Coverage</h3>
-                <p>Available in 99% of countries<br> around the globe</p>
+                <p>Available in 99% of countries around the globe</p>
             </div>
 
-            <div class="">
-                <img class="" src="./img/fi-rr-dollar.png" alt="" >
+            <div class="col-md-3">
+                <img class="" src="./img/fi-rr-dollar.png" alt="">
                 <h3>Cost Efficient</h3>
-                <p>Reasonable mining plans with<br>100% no-down time cloud system</p>
+                <p>Reasonable mining plans with 100% no-down time cloud system</p>
             </div>
 
-            <div class="">
-                <img class="" src="./img/fi-rr-bulb.png" alt="" >
+            <div class="col-md-3">
+                <img class="" src="./img/fi-rr-bulb.png" alt="">
                 <h3>High Efficiency</h3>
-                <p>Fast and reliable cloud stystem<br> for mining cryptocurrency</p>
+                <p>Fast and reliable cloud system for mining cryptocurrency</p>
             </div>
         </section>
 
-        <section class="">
-            <h4>Here from our satisfied customers</h4>
-
-            <div class="row itemscenter vt">
-                <div class="column alignleft p2xl mining-para">
-                    <p>Investing with autominer has been a decision I have never regretted. the return rate is very satisfying. I can sleep with my two eye closed knowing that my investment is safe and secure from swinders.</p>
-                    <img src="./img/united-kingdom.png" class="" alt="" > <p>Miss Edggy the investor</p>
-                <div class="column aligncenter p2xl img1">
-                    <img class="featurecard" alt="image" src="./img/Rectangle 35.png" >
-                </div>
+        <section class="row">
+            <div class="col-md-6">
+                <h4>Here from our satisfied customers</h4>
+                <p>Investing with autominer has been a decision I have never regretted. the return rate is very satisfying. I can sleep with my two eye closed knowing that my investment is safe and secure from swindlers.</p>
+                <img src="./img/united-kingdom.png" alt="">
+                <p>Miss Edggy the investor</p>
+            </div>
+            <div class="col-md-6">
+                <img class="featurecard" alt="image" src="./img/Rectangle 35.png">
             </div>
         </section>
 
-        <section class="">
+        <section class="row">
             <h3>Some Frequently Asked Questions</h3>
-            <div class="">
+            <div class="row">
                 <p>What is the return rate for investment?</p>
                 <i class="fa fa-plus"></i>
             </div>
 
-            <div class="">
+            <div class="row">
                 <p>How is the payout process?</p>
                 <i class="fa fa-plus"></i>
             </div>
 
-            <div class="">
+            <div class="row">
                 <p>What is the return rate for investment?</p>
                 <i class="fa fa-plus"></i>
             </div>
 
-            <div class="">
+            <div class="row flex-column">
                 <p>What is the return rate for investment?</p>
                 <i class="fa fa-plus"></i>
             </div>
         </section>
 
-        <section class="">
-            <div class="">
-                <h2>No more in doubt?</h2><br>
+        <section class="row">
+            <div class="col-md-6">
+                <h2>No more in doubt?</h2>
+                <br>
                 <p>Join us today to unlock the potential of Bitcoin mining. Start your journey towards earning in life-changing currency and invest in the future of finance!</p>
             </div>
-
-            <div class="">
+            <div class="col-md-6">
                 <button type="submit">Sign Up</button>
             </div>
         </section>
 
-        <footer class="">
-            <section class="">
+        <footer class="row">
+            <section class="col-md-6">
                 <div class="">
-                    <img src="" class="" alt="" >
+                    <img src="" class="" alt="">
                     <p>We provide the best mining system among other mining platforms!</p>
                 </div>
 
@@ -217,31 +268,31 @@
                     <p> <img src="" alt="">Toronto, Canada </p>
                     <img src="./img/Facebook.png" alt=""> <img src="./img/twitter.png" alt=""> <img src="./img/linkedin.png" alt="" > <img src="./img/Google.png" alt="" >
                 </div>
-                
-                <div>
-                    <h2>Our Numbers Speak For Us</h2>
-                    <div>
-                        <h2>$1198.76B</h2><br>
-                        <p>Market Cap</p><br><br>
-                        <h2>369k</h2>
-                        <p>Active Accounts</p>
-                    </div>
-
-                    <div>
-                        <h2>234k</h2><br>
-                        <p>Daily Transactions</p><br><br>
-                        <h2>127</h2>
-                        <p>Supported Countries</p>
-                    </div>
-                </div>
             </section>
             
-            <hr>
-            <div class="">
-                <p><img src="" class="" alt="">Copyright 2020 autominner</p>
-                <p>All Rights Reserved | Home for miners.</p>
-                <p>Privacy policy</p>
-            </div>
+            <section class="col-md-6">
+                <h2>Our Numbers Speak For Us</h2>
+                <div>
+                    <h2>$1198.76B</h2><br>
+                    <p>Market Cap</p><br><br>
+                    <h2>369k</h2>
+                    <p>Active Accounts</p>
+                </div>
+
+                <div>
+                    <h2>234k</h2><br>
+                    <p>Daily Transactions</p><br><br>
+                    <h2>127</h2>
+                    <p>Supported Countries</p>
+                </div>
+
+                <hr>
+                <div class="">
+                    <p><img src="" class="" alt="">Copyright 2020 autominner</p>
+                    <p>All Rights Reserved | Home for miners.</p>
+                    <p>Privacy policy</p>
+                </div>
+            </section>
         </footer>
     </main>
 </body>
